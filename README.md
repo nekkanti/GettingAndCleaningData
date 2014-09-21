@@ -1,3 +1,16 @@
+Description of the process
+==========================
+
+run_analysis.R script can be used on the original dataset to transform the dataset to TidyData.txt
+
+The following steps have been done on the original dataset to arrive at the TidyData.txt
+
+The Training and Test data sets have been merged along with the Activity ID's and Subjects.
+The Mean and Standard deviations for each measurements have been subsetted from the above data
+Descriptive names have been used for the activity names
+Variable names have been cleaned up to better format
+Finally a tidy data set with average for each variable for each activity and each subject has been created in TidyData.txt
+
 GettingAndCleaningData
 ======================
 
